@@ -1,0 +1,24 @@
+{
+  "release_version": "1.0.0",
+  "generated_utc": "2026-08-19T09:06:36.145189+00:00",
+  "paper_title": "Real-Data-Assisted Thermal State Estimation in District Heating Networks: An Evidence-Separated Benchmark with Simulator-Assisted Hydraulics",
+  "authors": [
+    "Yaseen Zaman",
+    "Yaran Wang",
+    "Shan Gao",
+    "Zhongbiao Wu"
+  ],
+  "public_scope": "code + machine-readable evidence + checkpoints + redistributable weather forcing; measured district-heating datasets are not redistributed",
+  "canonical_sonderborg_rows": 18703,
+  "canonical_sonderborg_sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e",
+  "era5_land_sha256": "36ca9f9d93b92136649536f94885cf4bf049a0dd4fea88ad494030627283f7c5",
+  "checkpoint_count": 56,
+  "npz_payload_count": 3,
+  "historical_training_torch_version_recorded": "2.11.0+cpu",
+  "verification_environment": "Python 3.13.5; see requirements.txt",
+  "version": "1.1.0",
+  "date_released": "2026-08-19",
+  "main_figure_count": 10,
+  "npz_evidence_count": 3,
+  "public_data_policy": "Measured Sonderborg/Flensburg/XAI4HEAT row-level data are not redistributed; exact canonical Sonderborg hash is pinned; redistributable ERA5-Land/Open-Meteo forcing is bundled."
+}

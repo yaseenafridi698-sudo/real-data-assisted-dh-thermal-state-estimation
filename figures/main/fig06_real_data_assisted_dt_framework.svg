@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="814.79952pt" height="303.59952pt" viewBox="0 0 814.79952 303.59952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-29T18:47:02.284781</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 303.59952 
+L 814.79952 303.59952 
+L 814.79952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 31.211986 136.550892 
+L 167.279904 136.550892 
+L 167.279904 70.406632 
+L 31.211986 70.406632 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #111111; fill-opacity: 0.094118; stroke: #111111; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 207.29988 136.550892 
+L 327.359808 136.550892 
+L 327.359808 70.406632 
+L 207.29988 70.406632 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #555555; fill-opacity: 0.094118; stroke: #555555; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 367.379784 136.550892 
+L 495.443707 136.550892 
+L 495.443707 70.406632 
+L 367.379784 70.406632 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #ff6626; fill-opacity: 0.094118; stroke: #ff6626; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 535.463683 136.550892 
+L 647.519616 136.550892 
+L 647.519616 70.406632 
+L 535.463683 70.406632 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #e600e6; fill-opacity: 0.094118; stroke: #e600e6; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 679.535597 136.550892 
+L 783.587534 136.550892 
+L 783.587534 70.406632 
+L 679.535597 70.406632 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #0000e6; fill-opacity: 0.094118; stroke: #0000e6; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 151.271914 255.059358 
+L 311.351818 255.059358 
+L 311.351818 191.671109 
+L 151.271914 191.671109 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #55d600; fill-opacity: 0.094118; stroke: #55d600; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 351.371794 255.059358 
+L 519.455693 255.059358 
+L 519.455693 191.671109 
+L 351.371794 191.671109 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #ff6626; fill-opacity: 0.094118; stroke: #ff6626; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 567.479664 255.059358 
+L 727.559568 255.059358 
+L 727.559568 191.671109 
+L 567.479664 191.671109 
+z
+" clip-path="url(#pf31cf4b685)" style="fill: #e600e6; fill-opacity: 0.094118; stroke: #e600e6; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(55.548835 95.296684)">Real operating data</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(44.261265 105.739063)">Sønderborg + Flensburg</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(25.966117 116.181442)">measured plant/substation nodes</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(235.814094 95.296344)">Preprocessing</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(227.545696 105.738723)">unit checks, gaps,</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(223.709539 116.181102)">train/validation/test</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(408.141964 95.296684)">Calibrated</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(393.256808 105.739063)">thermo-hydraulic</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(410.430472 116.181442)">simulator</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(560.238939 100.517534)">Sparse-sensor</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(563.358704 110.959913)">observations</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(689.208198 95.297024)">Benchmark models</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(686.371183 105.739403)">GRU / Transformer /</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(695.852144 116.181102)">PI-GNN-GRU-v3</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(173.812342 215.183155)">Measured-node validation</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(170.861139 225.625534)">supply/return temperature,</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(183.374866 236.067913)">heat/energy variables</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(394.425868 215.183155)">Simulator-assisted</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(374.158267 225.625534)">hidden-state reconstruction</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(398.703821 236.067913)">T, H, q, heat loss</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(599.647186 220.404344)">Uncertainty, anomaly,</text>
+    <text style="font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; fill: #111111" transform="translate(591.00496 230.846723)">and operational KPI layer</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 169.277972 103.478762 
+Q 187.288716 103.478762 203.622409 103.478762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 200.022409 101.678762 
+L 203.622409 103.478762 
+L 200.022409 105.278762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 329.357876 103.478762 
+Q 347.36862 103.478762 363.702313 103.478762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 360.102313 101.678762 
+L 363.702313 103.478762 
+L 360.102313 105.278762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 497.441775 103.478762 
+Q 515.452519 103.478762 531.786212 103.478762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 528.186212 101.678762 
+L 531.786212 103.478762 
+L 528.186212 105.278762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 649.516707 103.478762 
+Q 663.527599 103.478762 675.861439 103.478762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 672.261439 101.678762 
+L 675.861439 103.478762 
+L 672.261439 105.278762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 421.487847 137.101792 
+Q 327.361821 164.110423 234.847797 190.656504 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 238.80462 191.393765 
+L 234.847797 190.656504 
+L 237.811699 187.933403 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 423.8335 138.505534 
+Q 429.410521 164.109963 434.630624 188.075762 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 435.623218 184.175152 
+L 434.630624 188.075762 
+L 432.105692 184.941321 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 733.868137 137.61232 
+Q 691.541076 164.111322 650.635479 189.720412 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 654.641981 189.335779 
+L 650.635479 189.720412 
+L 652.731674 186.284431 
+" style="fill: none; stroke: #111111; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; text-anchor: middle" x="407.39976" y="288.797459" transform="rotate(-0 407.39976 288.797459)">Evidence boundary: real measured-node validation is separated from calibrated-simulator and simulator-assisted hidden-state evaluation.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Serif', 'Times New Roman', 'Times', serif; text-anchor: middle" x="407.39976" y="14.798437" transform="rotate(-0 407.39976 14.798437)">Real-data-assisted digital-twin framework and evidence boundary</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf31cf4b685">
+   <rect x="7.2" y="20.798437" width="800.39952" height="275.601083"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,18 @@
+layout,representative_nodes
+S1_inlet_only,0
+S2_inlet_outlet,"0, 20"
+S3_inlet_middle_outlet,"0, 10, 20"
+S4_five_sensors,"0, 5, 10, 15, 20"
+S5_noisy_inlet_outlet,"0, 20"
+S6_dropout_five_sensors,"0, 5, 10, 15, 20"
+S7_xai4heat_substations,"1, 6, 10, 14, 19"
+S8_random_three_sensors,"0, 2, 20"
+S9_optimized_three_sensors,"0, 10, 20"
+S10_optimized_five_sensors,"0, 5, 10, 15, 20"
+S11_middle_only,10
+S12_inlet_two_middle_outlet,"0, 7, 14, 20"
+S13_noisy_inlet_only,0
+S14_outlet_only,20
+S15_noisy_inlet_outlet_5pct,"0, 20"
+S16_peak_dropout_five_sensors,"0, 5, 10, 15, 20"
+S17_optimized_two_sensors,"0, 20"

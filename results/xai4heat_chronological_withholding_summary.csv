@@ -1,0 +1,5 @@
+variable,estimator,mean_fold_RMSE_C,std_fold_RMSE_C,mean_fold_MAE_C,total_test_samples,n_substations
+return_temp_C,chronological multi-station ridge,2.789401346495396,0.7288124332088987,2.0314826766008944,31245,5
+return_temp_C,spatial interpolation,2.8371256585945956,0.9312461587496981,2.174490318450952,31245,5
+supply_temp_C,chronological multi-station ridge,5.546381050021524,2.271578985174046,3.9989479848912373,31245,5
+supply_temp_C,spatial interpolation,8.1433861279587,5.768082717485577,5.645002400384061,31245,5

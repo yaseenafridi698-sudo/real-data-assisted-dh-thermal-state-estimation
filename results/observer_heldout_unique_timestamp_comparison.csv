@@ -1,0 +1,6 @@
+model,RMSE_Ts_C,RMSE_Tr_C,RMSE_H_m,RMSE_q_m3_s,protocol
+GRU-MSE (seed 11),0.2908145748049707,1.5502766274274284,3.5637588396265225,0.01372356752825097,seed-11 checkpoint; unique held-out timestamps
+Transformer-MSE (seed 11),0.4255088446883006,1.4266901958110612,3.231160946588818,0.013320876969904928,seed-11 checkpoint; unique held-out timestamps
+PI-GNN-GRU-v3 accuracy (seed 11),0.28333107818203235,1.1636003479708787,2.1609560175873406,0.007257045577118306,seed-11 checkpoint; unique held-out timestamps
+PI-GNN-GRU-v3 balanced (seed 11),0.2998143350157247,1.4686705646439229,3.8707689141461343,0.011602995477776584,seed-11 checkpoint; unique held-out timestamps
+Covariance-conditioned Gaussian observer,0.10243343089312745,0.16597884504634774,0.0005865882016002484,2.1637557352327206e-06,training-only covariance; unique held-out timestamps

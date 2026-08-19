@@ -1,0 +1,12 @@
+{
+  "generated_utc": "2026-08-07T00:50:01.948901+00:00",
+  "canonical_file": "data/locked/sonderborg_processed_18703.csv",
+  "retained_timestamps": 18703,
+  "sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e",
+  "preprocessing_script": "src/data_preprocessing.py",
+  "preprocessing_policy": "15-min resampling; forward-only interpolation up to 8 samples; long gaps retained as trajectory breaks after missing-row removal; configured 5 C ambient boundary",
+  "legacy_19878_row_artifact": "<LOCAL_LEGACY_PATH>/ATE_sonderborg_processed_provenance.csv",
+  "legacy_difference_explanation": "The excluded legacy artifact retained 19878 timestamps and marked 2648 short-gap rows as interpolated. The frozen causal artifact retains 18703 timestamps and 1473 short-gap interpolations. The 1175-row difference equals the interpolation-count difference (1175); the legacy artifact was produced before forward-only chronological interpolation was enforced and is excluded from active evidence.",
+  "prohibition": "Do not mix the 18,703-row canonical input with the excluded 19,878-row legacy artifact.",
+  "public_release_note": "The canonical measured-data derivative is not redistributed in the GitHub release; install an authorized local copy after hash verification."
+}

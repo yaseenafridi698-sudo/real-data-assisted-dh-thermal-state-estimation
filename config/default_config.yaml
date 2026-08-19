@@ -1,0 +1,95 @@
+system:
+  length_m: 20000
+  dx_m: 1000
+  dt_s: 900
+  horizon_h: 24
+  diameter_m: 0.6
+  rho: 1000.0
+  cp: 4180.0
+  g: 9.81
+  friction_factor: 0.02
+  wave_speed_mps: 1000.0
+  heat_loss_U_W_m2K: 0.75
+  pipe_perimeter_m: 1.884
+  ambient_base_C: 5.0
+  source_temp_base_C: 85.0
+  pump_c1: 38.0
+  pump_c2: 12.0
+  pump_c3: 32.0
+  pump_alpha_min: 0.70
+  pump_alpha_max: 1.20
+  outlet_head_m: 20.0
+  flow_proxy_mode: causal_lagged_return
+
+real_data:
+  primary_dataset: sonderborg
+  freeze_canonical_processed: true
+  canonical_sonderborg_processed_path: data/locked/sonderborg_processed_18703.csv
+  canonical_sonderborg_rows: 18703
+  canonical_sonderborg_sha256: 35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e
+  sparse_dataset: xai4heat
+  external_validation_dataset: flensburg
+  optional_demand_dataset: aalborg
+  use_real_data_if_available: true
+  fallback_to_synthetic: true
+  resample_rule: 15min
+  timezone: UTC
+  train_years: [2016, 2017]
+  val_years: [2018]
+  test_years: [2019]
+
+dataset:
+  n_scenarios_quick: 8
+  n_scenarios_full: 8
+  train_fraction: 0.70
+  val_fraction: 0.15
+  embargo_steps: 11
+  seed: 42
+  noise_std_fraction: 0.01
+
+model:
+  window_steps: 12
+  hidden_dim: 64
+  gnn_layers: 2
+  gru_layers: 1
+  dropout: 0.05
+
+training:
+  epochs_quick: 8
+  epochs_full: 20
+  epochs_layout: 4
+  epochs_ablation: 4
+  early_stopping_patience: 8
+  min_epochs_before_early_stopping: 10
+  selection_metric: normalized_state_mse
+  warmup_epochs: 2
+  physics_ramp_epochs: 4
+  final_finetune_epochs: 2
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 0.000001
+  lambda_state: 1.0
+  lambda_sensor: 1.0
+  lambda_thermal: 0.05
+  lambda_hydraulic: 0.02
+  lambda_boundary: 0.02
+  lambda_energy: 0.01
+  lambda_heat_loss: 0.01
+  lambda_smooth: 0.005
+  run_expensive_external_modes: false
+
+hyperparameter_search:
+  max_trials: 3
+  epochs_per_trial: 2
+  final_epochs: 4
+  hidden_dim: [64, 96, 128]
+  gnn_layers: [2, 3]
+  gru_layers: [1, 2]
+  dropout: [0.0, 0.05, 0.1]
+  learning_rate: [0.001, 0.0005]
+  lambda_sensor: [1.0, 2.0]
+  lambda_thermal: [0.005, 0.01, 0.03]
+  lambda_boundary: [0.005, 0.01, 0.03]
+  lambda_energy: [0.005, 0.01, 0.03]
+  lambda_hydraulic: [0.001, 0.005, 0.01]
+  training_mode: [accuracy_mode, balanced_mode, physics_mode]

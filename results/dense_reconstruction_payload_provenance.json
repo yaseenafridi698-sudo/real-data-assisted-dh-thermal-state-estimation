@@ -1,0 +1,27 @@
+{
+  "source": "prespecified seed-11 checkpoints from the corrected five-seed benchmark",
+  "dataset": "sonderborg",
+  "retained_timestamp_count": 768,
+  "test_window_count": 91,
+  "window_steps": 12,
+  "flattened_test_time_node_rows": 1092,
+  "trajectory_start_indices": [
+    0,
+    62
+  ],
+  "gap_handling": "test windows were constructed only from continuous retained 15-min segments",
+  "window_split_audit": {
+    "candidate_window_count": 757,
+    "excluded_cross_gap_window_count": 11,
+    "eligible_contiguous_window_count": 746,
+    "training_window_starts": 522,
+    "validation_window_starts": 111,
+    "test_window_starts": 91
+  },
+  "models": [
+    "GRU-MSE",
+    "Transformer-MSE",
+    "Proposed PI-GNN-GRU-v3 accuracy_mode",
+    "Proposed PI-GNN-GRU-v3 balanced_mode"
+  ]
+}

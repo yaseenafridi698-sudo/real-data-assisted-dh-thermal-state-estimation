@@ -1,0 +1,17 @@
+stage,status,started_utc,completed_utc,full_state_causality_version
+aggregate_primary_five_seed_results,complete,2026-08-07T02:35:57.815931+00:00,2026-08-07T02:35:57.943724+00:00,full_state_causality_v1_segment_start_boundaries
+build_primary_comparison_tables,complete,2026-08-07T02:35:57.947861+00:00,2026-08-07T02:35:58.226808+00:00,full_state_causality_v1_segment_start_boundaries
+export_dense_reconstruction_payload,complete,2026-08-07T02:35:58.231375+00:00,2026-08-07T02:36:19.788918+00:00,full_state_causality_v1_segment_start_boundaries
+cross_estimator_disagreement,complete,2026-08-07T02:36:19.795983+00:00,2026-08-07T02:36:19.909281+00:00,full_state_causality_v1_segment_start_boundaries
+external_transfer_and_noise_dropout,complete,2026-08-07T02:36:19.915771+00:00,2026-08-07T02:43:56.309855+00:00,full_state_causality_v1_segment_start_boundaries
+sensor_layouts,complete,2026-08-07T02:43:56.313933+00:00,2026-08-07T03:17:27.085374+00:00,full_state_causality_v1_segment_start_boundaries
+physics_loss_ablations,complete,2026-08-07T03:37:49.799942+00:00,2026-08-07T03:55:18.564515+00:00,full_state_causality_v1_segment_start_boundaries
+thermo_hydraulic_coupling_and_robustness,complete,2026-08-07T03:55:18.568014+00:00,2026-08-07T04:08:00.139656+00:00,full_state_causality_v1_segment_start_boundaries
+uncertainty_and_conformal,complete,2026-08-07T04:08:00.146975+00:00,2026-08-07T04:10:26.363899+00:00,full_state_causality_v1_segment_start_boundaries
+seasonal_generalization,complete,2026-08-07T04:10:26.367667+00:00,2026-08-07T04:11:55.853104+00:00,full_state_causality_v1_segment_start_boundaries
+combined_stress,complete,2026-08-07T04:11:55.856849+00:00,2026-08-07T04:14:18.510457+00:00,full_state_causality_v1_segment_start_boundaries
+parameter_identifiability,complete,2026-08-07T04:14:18.517502+00:00,2026-08-07T04:16:18.238706+00:00,full_state_causality_v1_segment_start_boundaries
+critical_measured_validation,complete,2026-08-07T04:16:18.242774+00:00,2026-08-07T04:16:55.888218+00:00,full_state_causality_v1_segment_start_boundaries
+xai4heat_measured_node_validation,complete,2026-08-07T04:16:55.893365+00:00,2026-08-07T04:19:14.428567+00:00,full_state_causality_v1_segment_start_boundaries
+online_replay_and_gaussian_observer,complete,2026-08-07T04:19:14.432588+00:00,2026-08-07T04:20:15.061235+00:00,full_state_causality_v1_segment_start_boundaries
+replay_robustness_summary,complete,2026-08-07T04:20:15.066053+00:00,2026-08-07T04:20:15.357206+00:00,full_state_causality_v1_segment_start_boundaries

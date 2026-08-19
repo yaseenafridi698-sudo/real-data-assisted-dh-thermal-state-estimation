@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-08-07T00:16:45.777036+00:00",
+  "source_dataset": "data/locked/sonderborg_processed_18703.csv",
+  "source_sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e",
+  "source_rows_total": 18703,
+  "source_rows_used": 768,
+  "proxy_causality_version": "causal_proxy_v2_trailing_mean_running_range",
+  "full_state_causality_version": "full_state_causality_v1_segment_start_boundaries",
+  "parameters": {
+    "heat_loss_U_W_m2K": 0.1,
+    "friction_factor": 0.01997630478155148,
+    "effective_velocity_factor": 1.55,
+    "flow_proxy_blend": 0.9875870467977457,
+    "return_temperature_offset": 0.0
+  },
+  "state_evidence": {
+    "Ts": "calibrated_simulator",
+    "Tr": "calibrated_simulator",
+    "H": "simulator_assisted_hidden_state",
+    "q": "simulator_assisted_hidden_state_heat_load_proxy",
+    "Q_loss": "calibrated_simulator_postprocessing"
+  },
+  "superseded_archive": "superseded_pre_full_state_causality_20260807",
+  "note": "These states were generated only after full-state future-perturbation invariance passed. They are not distributed field measurements.",
+  "canonical_dataset_path": "data/locked/sonderborg_processed_18703.csv",
+  "canonical_dataset_sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e"
+}

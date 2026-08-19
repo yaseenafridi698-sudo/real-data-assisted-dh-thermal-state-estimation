@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript and the original datasets."
+title: "Real-Data-Assisted Thermal State Estimation in District Heating Networks: Reproducibility Archive"
+type: software
+version: 1.0.0
+date-released: 2026-08-19
+authors:
+  - family-names: Zaman
+    given-names: Yaseen
+  - family-names: Wang
+    given-names: Yaran
+  - family-names: Gao
+    given-names: Shan
+  - family-names: Wu
+    given-names: Zhongbiao
+preferred-citation:
+  type: article
+  title: "Real-Data-Assisted Thermal State Estimation in District Heating Networks: An Evidence-Separated Benchmark with Simulator-Assisted Hydraulics"
+  authors:
+    - family-names: Zaman
+      given-names: Yaseen
+    - family-names: Wang
+      given-names: Yaran
+    - family-names: Gao
+      given-names: Shan
+    - family-names: Wu
+      given-names: Zhongbiao

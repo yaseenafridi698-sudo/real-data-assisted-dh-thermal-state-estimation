@@ -1,0 +1,31 @@
+{
+  "created_by": "src/final_measured_validation_upgrade.py",
+  "source_files": [
+    {
+      "path": "data\\locked\\sonderborg_processed_18703.csv",
+      "sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e",
+      "size_bytes": 3067087
+    },
+    {
+      "path": "data\\processed\\flensburg_processed.csv",
+      "sha256": "389b916549bf78768628a3e992c4c026a52b4edce39fa276f3fdf4d4f9e74a73",
+      "size_bytes": 3444025
+    },
+    {
+      "path": "data\\processed\\xai4heat_processed.csv",
+      "sha256": "a2a8c37d1771a766e9b2ad441ca355271457a1b37d209bee8d0063342e659541",
+      "size_bytes": 17159733
+    },
+    {
+      "path": "results\\calibrated_parameters.json",
+      "sha256": "b831721efd12b9be15f0ebc02e10302824757e20cfdf51eb696501d345915882",
+      "size_bytes": 579
+    }
+  ],
+  "protocols": {
+    "measured_return_readout": "training-only offset/affine calibration; 102 untouched test timestamps; no current return or internal C/S sensor input at test",
+    "xai4heat": "60/20/20 chronological split per fold; target temperature channels excluded from features; all-valid-range protocol",
+    "flensburg": "causal 1/6/24 h measured-supply forecasts; pre-2018 source model and 2017+Q1-2018 local-history model; test from 2018-04-02"
+  },
+  "evidence_boundary": "Only measured temperature targets are validated. Distributed temperature, heat loss, pressure/head, and flow are not field validated by these analyses."
+}

@@ -1,0 +1,17 @@
+case,parameter,perturbation,return_boundary_mean_change_C,q_proxy_mean_absolute_change_percent,simulated_flow_mean_change_percent,propagation_status,note
+baseline,baseline,baseline,0.0,0.0,0.0,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+heat_loss_U_0.8x,heat_loss_U_W_m2K,0.8,0.0,0.0,0.022931863496737735,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+friction_factor_0.8x,friction_factor,0.8,0.0,0.0,0.14330736720388462,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+heat_loss_U_1.2x,heat_loss_U_W_m2K,1.2,0.0,0.0,0.022931863496737735,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+friction_factor_1.2x,friction_factor,1.2,0.0,0.0,0.11466135455417807,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+return_temperature_bias_-2C,return_temperature_bias_C,-2.0,-2.0,4.891417634652963,4.8615444118716775,propagated,Return-temperature bias is propagated through the causal lagged-return flow proxy.
+return_temperature_bias_-1C,return_temperature_bias_C,-1.0,-1.0,2.5061802869571475,2.50205412630287,propagated,Return-temperature bias is propagated through the causal lagged-return flow proxy.
+return_temperature_bias_+1C,return_temperature_bias_C,1.0,1.0,2.6424040777826394,2.6046521676923384,propagated,Return-temperature bias is propagated through the causal lagged-return flow proxy.
+return_temperature_bias_+2C,return_temperature_bias_C,2.0,2.0,5.426286254559499,5.348003534360852,propagated,Return-temperature bias is propagated through the causal lagged-return flow proxy.
+flow_proxy_0.9x,flow_proxy,0.9,0.0,9.999999999999996,9.915358671071967,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+flow_proxy_1.1x,flow_proxy,1.1,0.0,10.000000000000009,9.869494944078504,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+effective_velocity_0.85x,effective_velocity_factor,0.85,0.0,0.0,0.022931863496737735,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+effective_velocity_1.15x,effective_velocity_factor,1.15,0.0,0.0,0.022931863496737735,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+low_loss_low_friction,combined,0.8,0.0,0.0,0.14330736720388462,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+high_loss_high_friction,combined,1.2,0.0,0.0,0.11466135455417807,propagated,Effective-parameter perturbation evaluated against the baseline trained estimators.
+return_bias_flow_uncertainty,return_bias_flow,1.1,2.0,15.968914880015461,15.773953396616397,propagated,Return-temperature bias is propagated through the causal lagged-return flow proxy.

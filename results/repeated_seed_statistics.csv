@@ -1,0 +1,25 @@
+model,metric,mean,std,n_seeds,status,interpretation
+GRU-MSE,RMSE_Ts_full,0.29983,0.01388,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+GRU-MSE,RMSE_Tr_full,1.59397,0.08648,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+GRU-MSE,heat_loss_error_percent,0.94892,0.07293,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+GRU-MSE,energy_balance_residual,7.47432,0.47332,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+GRU-MSE,boundary_residual_mean,0.10512,0.02042,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+GRU-MSE,training_time_s,42.62311,10.73102,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 accuracy_mode,RMSE_Ts_full,0.31479,0.01013,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 accuracy_mode,RMSE_Tr_full,1.2763,0.07811,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 accuracy_mode,heat_loss_error_percent,0.73362,0.08247,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 accuracy_mode,energy_balance_residual,3.94595,0.34456,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 accuracy_mode,boundary_residual_mean,0.14984,0.0195,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 accuracy_mode,training_time_s,668.38295,117.46876,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 balanced_mode,RMSE_Ts_full,0.31264,0.00686,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 balanced_mode,RMSE_Tr_full,1.47018,0.09091,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 balanced_mode,heat_loss_error_percent,0.92937,0.08764,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 balanced_mode,energy_balance_residual,1.63424,0.29802,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 balanced_mode,boundary_residual_mean,0.15866,0.0125,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Proposed PI-GNN-GRU-v3 balanced_mode,training_time_s,592.58785,75.83523,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Transformer-MSE,RMSE_Ts_full,0.41361,0.05491,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Transformer-MSE,RMSE_Tr_full,1.53011,0.05214,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Transformer-MSE,heat_loss_error_percent,0.90857,0.0408,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Transformer-MSE,energy_balance_residual,5.72153,0.93601,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Transformer-MSE,boundary_residual_mean,0.05331,0.02183,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.
+Transformer-MSE,training_time_s,60.0735,6.63233,5,completed,Mean +/- std over repeated random seeds; lower is better for listed errors/residuals.

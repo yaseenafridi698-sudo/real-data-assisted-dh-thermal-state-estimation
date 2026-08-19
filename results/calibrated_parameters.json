@@ -1,0 +1,10 @@
+{
+  "heat_loss_U_W_m2K": 0.1,
+  "friction_factor": 0.01997630478155148,
+  "effective_velocity_factor": 1.55,
+  "flow_proxy_blend": 0.9875870467977457,
+  "return_temperature_offset": 0.0,
+  "calibration_success": true,
+  "return_temperature_assumed": false,
+  "hydraulic_identifiability_note": "Hydraulic parameters are weakly identifiable without measured pressure/flow data. The flow trajectory is therefore treated as a heat-load-derived proxy, not a measured truth; friction_factor is kept near a literature/default value unless pressure or flow data are supplied."
+}

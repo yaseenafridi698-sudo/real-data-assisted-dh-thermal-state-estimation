@@ -1,0 +1,25 @@
+{
+  "full_state_causality_version": "full_state_causality_v1_segment_start_boundaries",
+  "canonical_dataset_manifest": "results/canonical_dataset_manifest.json",
+  "primary_checkpoints": "seed 11 representative checkpoints from the complete five-seed matrix",
+  "comparative_statistics": "five-seed means and sample standard deviations",
+  "stages": [
+    "aggregate_primary_five_seed_results",
+    "build_primary_comparison_tables",
+    "export_dense_reconstruction_payload",
+    "cross_estimator_disagreement",
+    "external_transfer_and_noise_dropout",
+    "sensor_layouts",
+    "physics_loss_ablations",
+    "thermo_hydraulic_coupling_and_robustness",
+    "uncertainty_and_conformal",
+    "seasonal_generalization",
+    "combined_stress",
+    "parameter_identifiability",
+    "critical_measured_validation",
+    "xai4heat_measured_node_validation",
+    "online_replay_and_gaussian_observer",
+    "replay_robustness_summary"
+  ],
+  "note": "No pre-full-state-causality metric is retained in active publication tables."
+}

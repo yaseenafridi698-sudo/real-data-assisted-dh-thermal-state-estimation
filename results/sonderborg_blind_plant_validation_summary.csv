@@ -1,0 +1,3 @@
+protocol,estimator,plants,total_samples,mean_RMSE_C,std_RMSE_C,median_RMSE_C,mean_MAE_C,state_type,safe_claim
+combined_plant_and_time_withholding,pooled ridge regression,6,128955,3.1331477918849604,1.9966722187421104,2.429806082224632,2.699707379930959,real_measured_node,measured multi-plant/future-year transfer; not spatial validation along one pipe
+within_test_online_persistence_reference,last observation persistence,6,128949,0.9861355012695748,1.1339368502450915,0.3762155211927471,0.30556700032963563,real_measured_node,online persistence reference with past target measurements

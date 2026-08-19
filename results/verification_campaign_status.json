@@ -1,0 +1,90 @@
+[
+  {
+    "verification": "Analytical advection",
+    "status": "PASS",
+    "value": 0.0033420605037326402,
+    "threshold_or_requirement": "RMSE < 0.03",
+    "evidence": "isolated first-order upwind transport kernel",
+    "limitation": ""
+  },
+  {
+    "verification": "Analytical advection-loss",
+    "status": "PASS",
+    "value": 0.003205683612677408,
+    "threshold_or_requirement": "RMSE < 0.03",
+    "evidence": "isolated transport-loss kernel",
+    "limitation": ""
+  },
+  {
+    "verification": "Hydraulic analytical solution",
+    "status": "PASS",
+    "value": 3.552713678800501e-15,
+    "threshold_or_requirement": "max error < 1e-9 m",
+    "evidence": "reduced quadratic-drop/linear-head relation; S state",
+    "limitation": ""
+  },
+  {
+    "verification": "Energy/storage closure",
+    "status": "PASS",
+    "value": 0.0,
+    "threshold_or_requirement": "algebraic error < 1e-6 W",
+    "evidence": "implementation identity including storage; not zero-residual field validation",
+    "limitation": ""
+  },
+  {
+    "verification": "Manufactured solution",
+    "status": "PASS",
+    "value": 1.970645868709653e-15,
+    "threshold_or_requirement": "PDE residual < 1e-12",
+    "evidence": "analytical manufactured advection-loss field",
+    "limitation": ""
+  },
+  {
+    "verification": "Grid convergence",
+    "status": "PASS",
+    "value": "Ts L2=0.05571 C; loss=0.00375%",
+    "threshold_or_requirement": "Ts L2 < 0.2 C and loss < 1%",
+    "evidence": "coordinated dx/dt refinement: 2000 m/1800 s, 1000 m/900 s, 500 m/450 s",
+    "limitation": ""
+  },
+  {
+    "verification": "Independent solver comparison",
+    "status": "PASS",
+    "value": 0.010440238441919141,
+    "threshold_or_requirement": "supply-field RMSE < 0.2 C",
+    "evidence": "RK45 method-of-lines versus explicit substepped simulator for constant boundaries",
+    "limitation": ""
+  },
+  {
+    "verification": "Cross-estimator audit",
+    "status": "PASS",
+    "value": "Gaussian observer + four repeated neural models",
+    "threshold_or_requirement": "correct method names and finite metrics",
+    "evidence": "observer uses static Gaussian conditioning rather than sequential forecast-update filtering",
+    "limitation": ""
+  },
+  {
+    "verification": "Locked later replay",
+    "status": "PASS",
+    "value": "return RMSE=1.0773 C",
+    "threshold_or_requirement": "finite and no retuning",
+    "evidence": "later measured return; distributed fields remain C/S",
+    "limitation": ""
+  },
+  {
+    "verification": "Cross-window/layout audit",
+    "status": "PASS",
+    "value": "reported without universal-rank claim",
+    "threshold_or_requirement": "second window plus layout evidence",
+    "evidence": "fixed-checkpoint temporal transfer and separately trained layout sensitivity",
+    "limitation": ""
+  },
+  {
+    "verification": "Causality/leakage audit",
+    "status": "PASS",
+    "value": "12/12 checks pass",
+    "threshold_or_requirement": "all proxy and full-state checks pass",
+    "evidence": "future perturbation invariance of alpha, q, Ts, Tr, H, heat loss, and delivered heat",
+    "limitation": ""
+  }
+]

@@ -1,0 +1,5 @@
+case,pressure_drop_error_percent,pressure_error_change_vs_baseline_percent,flow_RMSE_m3_s,flow_RMSE_change_vs_baseline_percent,energy_residual_percent,state_type,safe_interpretation
+flow_proxy_0.9x,17.133377552138047,304.91343702726317,0.0397066622972488,173.13609242030418,6.933677297757387,simulator_assisted_hidden_state,Sensitivity of reduced hydraulic diagnostics; not comparison with field pressure or flow meters.
+flow_proxy_1.1x,9.43664743820981,123.01646809523746,0.0301909943421681,107.67925944444525,6.808557616484154,simulator_assisted_hidden_state,Sensitivity of reduced hydraulic diagnostics; not comparison with field pressure or flow meters.
+friction_factor_0.8x,19.02171026082877,349.5404397884057,0.0138239866743485,-4.906897647664396,7.302632041203146,simulator_assisted_hidden_state,Sensitivity of reduced hydraulic diagnostics; not comparison with field pressure or flow meters.
+friction_factor_1.2x,9.440327625390358,123.10344202875669,0.0156570775434374,7.702655713585337,6.473845788380967,simulator_assisted_hidden_state,Sensitivity of reduced hydraulic diagnostics; not comparison with field pressure or flow meters.

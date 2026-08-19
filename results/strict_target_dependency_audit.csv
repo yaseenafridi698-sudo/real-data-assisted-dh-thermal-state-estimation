@@ -1,0 +1,9 @@
+quantity,timestamp-k inputs,reference,dependency class,independent validation?,safe interpretation
+Sonderborg supply/return calibration RMSE,"measured supply, return, load, ambient",measured plant temperature,M calibration,No - calibration fit,thermal calibration credibility
+Sonderborg chronological return replay,current supply/load/ambient; return history through k-1,withheld measured return at k,M blind replay,Yes at timestamp k,one-step historical online replay
+Flow proxy,load and supply at k; return at k-1,none,algebraic S proxy,No,causal heat-load-derived flow proxy
+Delivered-heat error,imposed load boundary and proxy flow,imposed heat load,C consistency,No,boundary heat-delivery consistency error
+Distributed supply/return RMSE,real boundaries and sparse node mask,calibrated simulator field,C/S hidden state,No dense field measurement,simulator-assisted reconstruction benchmark
+Pressure/head and flow RMSE,"pump, friction and causal flow-proxy assumptions",reduced simulator field,S hydraulic hidden state,No,internal hydraulic consistency diagnostic
+XAI4HEAT withheld-substation RMSE,other measured substations only,withheld measured substation,M spatial withholding,Yes for measured thermal variables,blind measured-node validation
+Flensburg return comparison,assumed 50 degC return,"assumption, not measurement",assumption sensitivity,No,return-assumption consistency only

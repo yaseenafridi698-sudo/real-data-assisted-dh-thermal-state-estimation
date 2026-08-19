@@ -1,0 +1,57 @@
+{
+  "generated_utc": "2026-08-07T11:29:51.447628+00:00",
+  "windows": [
+    {
+      "window": "winter_2016",
+      "start": "2016-01-02 08:30:00+00:00",
+      "regime": "winter/high-load",
+      "end": "2016-01-07 16:15:00+00:00",
+      "timestamps": 512,
+      "mean_heat_load_kW": 74468.03530451254,
+      "mean_supply_C": 80.81394651810004,
+      "mean_return_C": 42.22949601045278
+    },
+    {
+      "window": "shoulder_2016",
+      "start": "2016-11-08 19:30:00+00:00",
+      "regime": "late-autumn/heating-onset",
+      "end": "2016-11-14 03:15:00+00:00",
+      "timestamps": 512,
+      "mean_heat_load_kW": 62060.69759046493,
+      "mean_supply_C": 82.81347437114403,
+      "mean_return_C": 40.57281526934525
+    },
+    {
+      "window": "late_winter_2018",
+      "start": "2018-02-22 03:00:00+00:00",
+      "regime": "later-year high-load",
+      "end": "2018-02-27 10:45:00+00:00",
+      "timestamps": 512,
+      "mean_heat_load_kW": 72240.68249679968,
+      "mean_supply_C": 83.48477740209428,
+      "mean_return_C": 41.92288012329219
+    }
+  ],
+  "window_length": 512,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "models": [
+    "GRU-MSE",
+    "Transformer-MSE",
+    "Proposed PI-GNN-GRU-v3 accuracy_mode",
+    "Proposed PI-GNN-GRU-v3 balanced_mode"
+  ],
+  "epochs_cap": 12,
+  "batch_size": 32,
+  "sensor_layout": "S4_five_sensors",
+  "expected_runs": 36,
+  "completed_runs": 36,
+  "complete": true,
+  "torch_version": "2.11.0+cpu",
+  "device": "cpu",
+  "scope": "three separated heating-season windows; no summer block of sufficient contiguous length exists in the locked retained series",
+  "window_selection_rule": "chosen before model fitting from timestamp, continuity, and temporal separation only: one early-winter block, one heating-onset block, and one later-year winter block; no model error or rank entered selection"
+}

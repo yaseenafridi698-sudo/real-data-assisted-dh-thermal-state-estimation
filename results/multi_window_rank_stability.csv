@@ -1,0 +1,61 @@
+window,metric,rank,model,value
+late_winter_2018,RMSE_Ts_full,1,Proposed PI-GNN-GRU-v3 balanced_mode,0.5169388155142466
+late_winter_2018,RMSE_Ts_full,2,Transformer-MSE,0.537258138259252
+late_winter_2018,RMSE_Ts_full,3,Proposed PI-GNN-GRU-v3 accuracy_mode,0.5626261035601298
+late_winter_2018,RMSE_Ts_full,4,GRU-MSE,0.6743514736493429
+late_winter_2018,RMSE_Tr_full,1,GRU-MSE,1.923723816871643
+late_winter_2018,RMSE_Tr_full,2,Transformer-MSE,1.956229607264201
+late_winter_2018,RMSE_Tr_full,3,Proposed PI-GNN-GRU-v3 balanced_mode,2.297936201095581
+late_winter_2018,RMSE_Tr_full,4,Proposed PI-GNN-GRU-v3 accuracy_mode,2.396798054377238
+late_winter_2018,heat_loss_error_percent,1,GRU-MSE,1.0296401870011216
+late_winter_2018,heat_loss_error_percent,2,Transformer-MSE,1.2289736469407853
+late_winter_2018,heat_loss_error_percent,3,Proposed PI-GNN-GRU-v3 balanced_mode,1.5381873769138998
+late_winter_2018,heat_loss_error_percent,4,Proposed PI-GNN-GRU-v3 accuracy_mode,1.630469486772351
+late_winter_2018,energy_balance_residual,1,Proposed PI-GNN-GRU-v3 balanced_mode,2.676935731938508
+late_winter_2018,energy_balance_residual,2,Transformer-MSE,3.2998518770635084
+late_winter_2018,energy_balance_residual,3,Proposed PI-GNN-GRU-v3 accuracy_mode,4.990780991272687
+late_winter_2018,energy_balance_residual,4,GRU-MSE,6.094512858879491
+late_winter_2018,boundary_residual_mean,1,Transformer-MSE,0.19650039076805112
+late_winter_2018,boundary_residual_mean,2,Proposed PI-GNN-GRU-v3 balanced_mode,0.39775922894477844
+late_winter_2018,boundary_residual_mean,3,GRU-MSE,0.47809211413065594
+late_winter_2018,boundary_residual_mean,4,Proposed PI-GNN-GRU-v3 accuracy_mode,0.48705989122390747
+shoulder_2016,RMSE_Ts_full,1,Transformer-MSE,0.36122146248817444
+shoulder_2016,RMSE_Ts_full,2,GRU-MSE,0.4706624448299408
+shoulder_2016,RMSE_Ts_full,3,Proposed PI-GNN-GRU-v3 accuracy_mode,0.5205300649007162
+shoulder_2016,RMSE_Ts_full,4,Proposed PI-GNN-GRU-v3 balanced_mode,0.5333831310272217
+shoulder_2016,RMSE_Tr_full,1,Transformer-MSE,1.2603691816329956
+shoulder_2016,RMSE_Tr_full,2,GRU-MSE,1.308683156967163
+shoulder_2016,RMSE_Tr_full,3,Proposed PI-GNN-GRU-v3 balanced_mode,1.3315050601959229
+shoulder_2016,RMSE_Tr_full,4,Proposed PI-GNN-GRU-v3 accuracy_mode,1.4037095705668132
+shoulder_2016,heat_loss_error_percent,1,Transformer-MSE,0.8914585934913971
+shoulder_2016,heat_loss_error_percent,2,GRU-MSE,1.0895223120784532
+shoulder_2016,heat_loss_error_percent,3,Proposed PI-GNN-GRU-v3 balanced_mode,1.260074155850291
+shoulder_2016,heat_loss_error_percent,4,Proposed PI-GNN-GRU-v3 accuracy_mode,1.3226787480949544
+shoulder_2016,energy_balance_residual,1,Transformer-MSE,3.4622457117000383
+shoulder_2016,energy_balance_residual,2,Proposed PI-GNN-GRU-v3 balanced_mode,4.1227008792458815
+shoulder_2016,energy_balance_residual,3,Proposed PI-GNN-GRU-v3 accuracy_mode,4.441875378383937
+shoulder_2016,energy_balance_residual,4,GRU-MSE,4.640451080858743
+shoulder_2016,boundary_residual_mean,1,Proposed PI-GNN-GRU-v3 balanced_mode,0.09155386189619692
+shoulder_2016,boundary_residual_mean,2,Transformer-MSE,0.17655106385548902
+shoulder_2016,boundary_residual_mean,3,Proposed PI-GNN-GRU-v3 accuracy_mode,0.17807268102963758
+shoulder_2016,boundary_residual_mean,4,GRU-MSE,0.2648225923379262
+winter_2016,RMSE_Ts_full,1,GRU-MSE,0.2218747089306513
+winter_2016,RMSE_Ts_full,2,Transformer-MSE,0.24154103795687354
+winter_2016,RMSE_Ts_full,3,Proposed PI-GNN-GRU-v3 accuracy_mode,0.2753423750400543
+winter_2016,RMSE_Ts_full,4,Proposed PI-GNN-GRU-v3 balanced_mode,0.3341962893803914
+winter_2016,RMSE_Tr_full,1,Proposed PI-GNN-GRU-v3 balanced_mode,1.2594685554504395
+winter_2016,RMSE_Tr_full,2,GRU-MSE,1.322606086730957
+winter_2016,RMSE_Tr_full,3,Proposed PI-GNN-GRU-v3 accuracy_mode,1.3359733025232952
+winter_2016,RMSE_Tr_full,4,Transformer-MSE,1.4233758449554443
+winter_2016,heat_loss_error_percent,1,GRU-MSE,0.8831619370095275
+winter_2016,heat_loss_error_percent,2,Proposed PI-GNN-GRU-v3 balanced_mode,0.8833259563383944
+winter_2016,heat_loss_error_percent,3,Proposed PI-GNN-GRU-v3 accuracy_mode,0.8970916984656897
+winter_2016,heat_loss_error_percent,4,Transformer-MSE,1.0192862067498938
+winter_2016,energy_balance_residual,1,Proposed PI-GNN-GRU-v3 balanced_mode,1.1175946042473106
+winter_2016,energy_balance_residual,2,Transformer-MSE,1.7123580813759434
+winter_2016,energy_balance_residual,3,Proposed PI-GNN-GRU-v3 accuracy_mode,2.316639425010838
+winter_2016,energy_balance_residual,4,GRU-MSE,3.6552233210166953
+winter_2016,boundary_residual_mean,1,Transformer-MSE,0.09821352859338117
+winter_2016,boundary_residual_mean,2,GRU-MSE,0.12882667034864423
+winter_2016,boundary_residual_mean,3,Proposed PI-GNN-GRU-v3 accuracy_mode,0.30126990874608356
+winter_2016,boundary_residual_mean,4,Proposed PI-GNN-GRU-v3 balanced_mode,0.3171224196751912

@@ -1,0 +1,16 @@
+{
+  "method": "paired moving-block bootstrap after averaging overlapping window predictions at each unique physical timestamp",
+  "source_payload": "results/dense_reconstruction_payloads.npz",
+  "source_window_rows": 1092,
+  "unique_timestamp_count": 102,
+  "duplicate_window_rows_collapsed": 990,
+  "continuous_segment_count": 1,
+  "timestamp_spacing_seconds": 900,
+  "block_length_steps": 12,
+  "block_length_hours": 3.0,
+  "bootstrap_resamples": 200,
+  "random_seed": 2026,
+  "confidence_interval": "percentile 95% [0.025, 0.975]",
+  "scope": "limited temporal sampling uncertainty over one 25.5-hour continuous held-out segment; not seed-level repeatability",
+  "rationale": "The original 96-step block would be a 24-hour block, but only 102 unique held-out timestamps are available after collapsing overlapping 12-step windows. A 12-step block is used to preserve local dependence without treating duplicated window rows as chronological observations."
+}

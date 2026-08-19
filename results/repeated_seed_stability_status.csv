@@ -1,0 +1,5 @@
+item,status,evidence,safe_interpretation
+final benchmark random seed,documented,config/default_config.yaml uses seed 42,single-run final metrics are reported; not mean +/- std
+five-seed metric mean +/- std,completed,"results/repeated_seed_statistics.csv; seeds 11, 22, 33, 44, and 55",Primary evidence for the four prespecified neural models under one fixed split and S4 layout; not a statistical-significance test.
+Torch runtime for rerun,available,torch import check,The completed five-seed artifact is primary for its stated fixed split/layout; future reruns should extend it to other layouts and ablations.
+training time/model size,available,results/computational_cost.csv and results/training_stability_summary_final.csv,Computational feasibility can be reported; repeated-seed coverage remains limited to the four principal models under one fixed split and S4 layout.

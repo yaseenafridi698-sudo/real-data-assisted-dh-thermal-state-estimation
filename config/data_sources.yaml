@@ -1,0 +1,50 @@
+sonderborg:
+  role: main real dataset
+  loader: sonderborg
+  url: https://zenodo.org/records/7972964
+  raw_dir: data/raw/sonderborg
+  expected_extensions: [.csv, .xlsx, .xls, .txt, .tsv, .zip]
+  description: Heat load plus feed and return flow temperatures from seven plants, 2016-2019, 15-minute resolution.
+  measured_variables:
+    - heat load
+    - feed/supply temperature
+    - return temperature
+    - plant-level operating profiles
+  citation: "Sønderborg Varme A/S. Network Data of the District Heating System for the city of Sønderborg from 2016-2019. Zenodo. https://doi.org/10.5281/zenodo.7972964"
+
+flensburg:
+  role: external validation dataset
+  loader: flensburg
+  url: https://zenodo.org/records/10508280
+  raw_dir: data/raw/flensburg
+  expected_extensions: [.csv, .xlsx, .xls, .txt, .tsv, .zip]
+  description: Total heat load and feed flow temperatures, 2017-2019, hourly resolution. Average return temperature may be assumed as 50 C if unavailable.
+  measured_variables:
+    - heat load
+    - feed/supply temperature
+  citation: "Freißmann, J.; Fritz, M.; Tuschy, I.; Stadtwerke Flensburg GmbH. Network Data of the District Heating System for the city of Flensburg from 2017-2019. Zenodo. https://doi.org/10.5281/zenodo.10508280"
+
+xai4heat:
+  role: sparse-substation dataset
+  loader: xai4heat
+  url: https://data.mendeley.com/datasets/2mwc6x6kwb
+  raw_dir: data/raw/xai4heat
+  expected_extensions: [.csv, .xlsx, .xls, .txt, .tsv, .zip]
+  description: Real-world SCADA data from five substations, five heating seasons, hourly data.
+  measured_variables:
+    - sparse measured substation nodes
+    - substation temperatures
+    - energy transmission
+    - outdoor temperature if available
+  citation: "Cvetković, S.; Zdravković, M.; Ignjatović, M. XAI4HEAT SCADA Dataset 2024. Mendeley Data, V1. https://doi.org/10.17632/2mwc6x6kwb.1"
+
+aalborg:
+  role: optional demand-side realism
+  loader: aalborg
+  url: https://zenodo.org/records/6563114
+  raw_dir: data/raw/aalborg
+  expected_extensions: [.csv, .xlsx, .xls, .txt, .tsv, .zip]
+  description: Cleaned hourly smart heat meter data from 3021 Danish residential buildings.
+  measured_variables:
+    - consumer heat demand profiles
+  citation: "Schaffer, M.; Tvedebrink, T.; Marszal-Pomianowska, A. Three years of hourly data from 3021 smart heat meters installed in Danish residential buildings. Zenodo. https://doi.org/10.5281/zenodo.6563114"

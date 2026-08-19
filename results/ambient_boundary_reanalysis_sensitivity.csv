@@ -1,0 +1,3 @@
+ambient_case,stage1_objective,heat_loss_U_W_m2K,effective_velocity_factor,flow_proxy_blend,friction_factor,return_temperature_offset,ambient_mean_C,ambient_std_C,ambient_min_C,ambient_max_C,mean_heat_loss_kW,mean_outlet_supply_C,thermal_delay_h,evidence_class
+constant_5C,1.7477205716896989,0.1,1.55,0.9875870467977457,0.02,0.0,5.0,0.0,5.0,5.0,424.37803988950117,81.4979279601804,4.01402870724863,configured boundary sensitivity
+era5_land_reanalysis,1.750544323546147,0.1,1.55,0.9899524838297198,0.02,0.0,1.415890498850452,3.291528821029447,-7.7,19.9,451.37973295429333,81.49309040345096,4.013128120337361,independent historical reanalysis boundary sensitivity

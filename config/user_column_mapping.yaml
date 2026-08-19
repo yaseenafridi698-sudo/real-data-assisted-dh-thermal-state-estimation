@@ -1,0 +1,17 @@
+# Optional user-editable column mapping.
+# Fill this file when automatic column detection is uncertain for a manually
+# downloaded dataset. Leave values blank/null to use automatic detection.
+#
+# Example:
+# sonderborg:
+#   timestamp: timestamp
+#   heat_load_kw: plant_1_heat_load_kw
+#   supply_temp_C: plant_1_feed_flow_temperature_C
+#   return_temp_C: plant_1_return_flow_temperature_C
+#   ambient_temp_C:
+#   plant_id:
+
+sonderborg: {}
+flensburg: {}
+xai4heat: {}
+aalborg: {}

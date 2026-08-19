@@ -1,0 +1,21 @@
+seed,model,checkpoint,checkpoint_current
+11,GRU-MSE,seed_11_GRU-MSE_best.pt,True
+11,Transformer-MSE,seed_11_Transformer-MSE_best.pt,True
+11,Proposed PI-GNN-GRU-v3 accuracy_mode,seed_11_Proposed PI-GNN-GRU-v3 accuracy_mode_best.pt,True
+11,Proposed PI-GNN-GRU-v3 balanced_mode,seed_11_Proposed PI-GNN-GRU-v3 balanced_mode_best.pt,True
+22,GRU-MSE,seed_22_GRU-MSE_best.pt,True
+22,Transformer-MSE,seed_22_Transformer-MSE_best.pt,True
+22,Proposed PI-GNN-GRU-v3 accuracy_mode,seed_22_Proposed PI-GNN-GRU-v3 accuracy_mode_best.pt,True
+22,Proposed PI-GNN-GRU-v3 balanced_mode,seed_22_Proposed PI-GNN-GRU-v3 balanced_mode_best.pt,True
+33,GRU-MSE,seed_33_GRU-MSE_best.pt,True
+33,Transformer-MSE,seed_33_Transformer-MSE_best.pt,True
+33,Proposed PI-GNN-GRU-v3 accuracy_mode,seed_33_Proposed PI-GNN-GRU-v3 accuracy_mode_best.pt,True
+33,Proposed PI-GNN-GRU-v3 balanced_mode,seed_33_Proposed PI-GNN-GRU-v3 balanced_mode_best.pt,True
+44,GRU-MSE,seed_44_GRU-MSE_best.pt,True
+44,Transformer-MSE,seed_44_Transformer-MSE_best.pt,True
+44,Proposed PI-GNN-GRU-v3 accuracy_mode,seed_44_Proposed PI-GNN-GRU-v3 accuracy_mode_best.pt,True
+44,Proposed PI-GNN-GRU-v3 balanced_mode,seed_44_Proposed PI-GNN-GRU-v3 balanced_mode_best.pt,True
+55,GRU-MSE,seed_55_GRU-MSE_best.pt,True
+55,Transformer-MSE,seed_55_Transformer-MSE_best.pt,True
+55,Proposed PI-GNN-GRU-v3 accuracy_mode,seed_55_Proposed PI-GNN-GRU-v3 accuracy_mode_best.pt,True
+55,Proposed PI-GNN-GRU-v3 balanced_mode,seed_55_Proposed PI-GNN-GRU-v3 balanced_mode_best.pt,True

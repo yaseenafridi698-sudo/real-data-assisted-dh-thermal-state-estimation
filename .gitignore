@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Third-party measured inputs are never committed.
+data/raw/**
+data/processed/**
+data/locked/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/locked/.gitkeep
+
+# Regenerated scratch outputs; frozen paper figures in figures/main are tracked.
+figures/regenerated_main/**
+figures/regenerated_main_figures.zip
+paper/
+submission_final/

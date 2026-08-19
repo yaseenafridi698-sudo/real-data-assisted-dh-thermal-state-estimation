@@ -1,0 +1,2 @@
+processed_rows,retained_gap_restarts,nominal_dt_s,treatment,scored_test_samples,excluded_test_restart_samples
+18703,156,900.0,reset lagged state and bias at each retained gap; exclude restart sample from contiguous replay scoring,2750,34

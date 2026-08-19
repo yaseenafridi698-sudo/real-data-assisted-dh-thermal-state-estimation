@@ -1,0 +1,60 @@
+{
+  "generated_utc": "2026-08-07T02:07:55.265722+00:00",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "epochs": 20,
+  "batch_size": 8,
+  "sensor_layout": "S4_five_sensors",
+  "maximum_time_steps": 768,
+  "models": [
+    "GRU-MSE",
+    "Transformer-MSE",
+    "Proposed PI-GNN-GRU-v3 accuracy_mode",
+    "Proposed PI-GNN-GRU-v3 balanced_mode"
+  ],
+  "torch_version": "2.11.0+cpu",
+  "device": "cpu",
+  "status": "publication_confirmation_run",
+  "canonical_dataset_path": "data/locked/sonderborg_processed_18703.csv",
+  "canonical_dataset_sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e",
+  "full_state_causality_version": "full_state_causality_v1_segment_start_boundaries",
+  "simulator_state_artifact": "results/corrected_simulator_states.npz",
+  "selection_metric": "normalized_state_mse",
+  "early_stopping_patience": 8,
+  "note": "Repeated-seed confirmation uses the same capped real-data window, causal proxy construction, fixed chronological split, training-only normalization, calibrated effective parameters, S4 layout, and common normalized-state-MSE checkpoint selection as the primary benchmark.",
+  "calibrated_heat_loss_U_W_m2K": 0.1,
+  "calibrated_friction_factor": 0.01997630478155148,
+  "requested_seeds_this_call": [
+    55
+  ],
+  "executed_seeds_in_aggregate": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "aggregate_model_seed_rows": 20,
+  "aggregate_complete_for_five_seed_protocol": true,
+  "timestamp_window_audit": {
+    "window_start_utc": "2016-01-01T00:00:00+00:00",
+    "window_end_utc": "2016-01-09T16:45:00+00:00",
+    "retained_timestamp_count": 768,
+    "within_window_interval_count": 767,
+    "within_window_15min_interval_count": 766,
+    "non_nominal_interval_count": 1
+  },
+  "window_split_audit": {
+    "candidate_window_count": 757,
+    "excluded_cross_gap_window_count": 11,
+    "eligible_contiguous_window_count": 746,
+    "training_window_starts": 522,
+    "validation_window_starts": 111,
+    "test_window_starts": 91
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "blocks": 5,
+  "return_RMSE_median_C": 1.3959146945320466,
+  "return_RMSE_min_C": 1.17392632936189,
+  "return_RMSE_max_C": 1.8321943721097775,
+  "unchanged_parameters": true,
+  "note": "Effective parameters were fitted once on the locked calibration prefix and were not retuned on these contiguous blocks."
+}

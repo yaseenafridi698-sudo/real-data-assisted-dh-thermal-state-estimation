@@ -1,0 +1,24 @@
+{
+  "generated_utc": "2026-08-07T11:27:54.938720+00:00",
+  "samples": 769,
+  "near_optimal_count": 16,
+  "minimum_objective": 1.7477205716896989,
+  "near_optimal_threshold": 1.8351066002741838,
+  "tolerance_rule": "objective <= max(minimum*1.05, minimum+0.05); fixed 5%/0.05 rule declared before inspecting retained sets",
+  "parameter_bounds": {
+    "U": [
+      0.1,
+      3.5
+    ],
+    "eta_v": [
+      0.55,
+      1.55
+    ],
+    "beta_q": [
+      0.35,
+      1.0
+    ]
+  },
+  "objective": "return_RMSE + 8*energy_fraction + 0.02*outlet_smoothness + 0.02*(U-U0)^2 + 0.01*(eta_v-1)^2",
+  "interpretation": "Near-equivalent plant-level fit does not identify a unique internal distributed field."
+}

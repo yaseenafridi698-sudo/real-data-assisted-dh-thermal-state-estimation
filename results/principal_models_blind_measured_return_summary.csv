@@ -1,0 +1,6 @@
+model,mean_RMSE_return_measured_C,std_RMSE_return_measured_C,mean_MAE_return_measured_C,std_MAE_return_measured_C,n_seeds,interpretation
+Measured-return persistence,0.13394618485401177,,0.09674037317545997,,0,M baseline
+GRU-MSE,1.903030505653198,0.529308897552899,1.7740906440739224,0.5330781026086149,5,M target; C/S-trained checkpoint
+Transformer-MSE,3.1541779857659202,0.9379170385835677,2.9604139123432938,0.9976459271049428,5,M target; C/S-trained checkpoint
+Proposed PI-GNN-GRU-v3 balanced_mode,5.863359296383284,0.6491105454670995,5.843693845257353,0.6476973211700363,5,M target; C/S-trained checkpoint
+Proposed PI-GNN-GRU-v3 accuracy_mode,8.194063697081724,0.6389693680443634,8.178410210936537,0.6435344194672089,5,M target; C/S-trained checkpoint

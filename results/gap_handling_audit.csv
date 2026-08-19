@@ -1,0 +1,6 @@
+item,value
+Observed discontinuity,index 61 to 62: 2016-01-01T15:15:00+00:00 to 2016-01-02T08:30:00+00:00 (17.25 h)
+Simulator/calibration treatment,trajectory split; reset at segment start; segment-start fit and dynamic terms excluded
+Neural sequence treatment,11 of 757 candidate 12-step windows excluded (starts 51--61)
+Eligible chronological windows,746 total; 522/111/91 train/validation/test after 11-step embargo
+Bootstrap treatment,regenerated from eligible test windows; no resampled block crosses the retained-data discontinuity

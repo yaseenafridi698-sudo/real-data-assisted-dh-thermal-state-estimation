@@ -1,0 +1,5 @@
+mode,measured supply RMSE_C,heat-load consistency_pct,return reference,return metric status,native_cadence_s,cadence_treatment
+direct_transfer,8.975716590881348,26.552867889404297,assumed 50 degC,assumption-consistency; excluded from external validation,3600.0,native hourly simulator and sequence cadence; no 15-min transition assumed
+calibration_only_offset_adaptation,9.293036460876465,29.640644073486328,assumed 50 degC,assumption-consistency; excluded from external validation,3600.0,native hourly simulator and sequence cadence; no 15-min transition assumed
+few_shot_decoder_bias_adaptation,7.503509044647217,44.190345764160156,assumed 50 degC,assumption-consistency; excluded from external validation,3600.0,native hourly simulator and sequence cadence; no 15-min transition assumed
+normalized_transfer_flensburg_boundary_statistics,17.86228370666504,122.70020294189453,assumed 50 degC,assumption-consistency; excluded from external validation,3600.0,native hourly simulator and sequence cadence; no 15-min transition assumed

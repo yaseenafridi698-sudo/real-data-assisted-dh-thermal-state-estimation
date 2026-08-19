@@ -1,0 +1,6 @@
+model,RMSE_C,MAE_C,Bias_C,test_samples,current target used?,state_type,gap_handling
+Last observation persistence,0.17206108330702277,0.10958429645973386,-0.0029592506293306415,2751,No,real_measured_node,trajectory starts excluded; no lag or persistence transition crosses a retained gap
+Linear autoregression,0.18665409809167385,0.12191276030249625,-0.004371473882670185,2751,No,real_measured_node,trajectory starts excluded; no lag or persistence transition crosses a retained gap
+Causal replay estimator,0.476680273414631,0.3191994479053892,-0.028652181885991945,2751,No,real_measured_node,trajectory starts excluded; no lag or persistence transition crosses a retained gap
+Daily persistence,0.9428089399752487,0.6975488997603939,0.011114736228901986,2751,No,real_measured_node,trajectory starts excluded; no lag or persistence transition crosses a retained gap
+Training mean,1.8037824610965778,1.3175228885346735,-0.8340374147206877,2751,No,real_measured_node,trajectory starts excluded; no lag or persistence transition crosses a retained gap

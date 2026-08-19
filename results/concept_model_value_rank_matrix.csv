@@ -1,0 +1,29 @@
+metric,model,value,rank,source
+Supply-temperature RMSE,GRU-MSE,0.29982830286026,1.0,baseline_comparison_final.csv
+Supply-temperature RMSE,Proposed PI-GNN-GRU-v3 accuracy_mode,0.3147866785526275,3.0,baseline_comparison_final.csv
+Supply-temperature RMSE,Proposed PI-GNN-GRU-v3 balanced_mode,0.3126395523548125,2.0,baseline_comparison_final.csv
+Supply-temperature RMSE,Transformer-MSE,0.4136099576950073,4.0,baseline_comparison_final.csv
+Return-temperature RMSE,GRU-MSE,1.5939731836318969,4.0,baseline_comparison_final.csv
+Return-temperature RMSE,Proposed PI-GNN-GRU-v3 accuracy_mode,1.2762975454330443,1.0,baseline_comparison_final.csv
+Return-temperature RMSE,Proposed PI-GNN-GRU-v3 balanced_mode,1.4701768159866333,2.0,baseline_comparison_final.csv
+Return-temperature RMSE,Transformer-MSE,1.5301090955734251,3.0,baseline_comparison_final.csv
+Heat-loss error,GRU-MSE,0.9489150519337664,4.0,baseline_comparison_final.csv
+Heat-loss error,Proposed PI-GNN-GRU-v3 accuracy_mode,0.7336228488731911,1.0,baseline_comparison_final.csv
+Heat-loss error,Proposed PI-GNN-GRU-v3 balanced_mode,0.9293687607658798,3.0,baseline_comparison_final.csv
+Heat-loss error,Transformer-MSE,0.9085663374164932,2.0,baseline_comparison_final.csv
+Energy-balance residual,GRU-MSE,7.474319479663626,4.0,baseline_comparison_final.csv
+Energy-balance residual,Proposed PI-GNN-GRU-v3 accuracy_mode,3.945948989301336,2.0,baseline_comparison_final.csv
+Energy-balance residual,Proposed PI-GNN-GRU-v3 balanced_mode,1.6342433673963526,1.0,baseline_comparison_final.csv
+Energy-balance residual,Transformer-MSE,5.721526205967271,3.0,baseline_comparison_final.csv
+Boundary residual,GRU-MSE,0.1051159381866454,2.0,baseline_comparison_final.csv
+Boundary residual,Proposed PI-GNN-GRU-v3 accuracy_mode,0.1498419791460036,3.0,baseline_comparison_final.csv
+Boundary residual,Proposed PI-GNN-GRU-v3 balanced_mode,0.1586589694023132,4.0,baseline_comparison_final.csv
+Boundary residual,Transformer-MSE,0.0533064015209674,1.0,baseline_comparison_final.csv
+Pressure-drop residual,GRU-MSE,6.674518190273691,4.0,combined_stress_test.csv
+Pressure-drop residual,Transformer-MSE,5.171962703292016,3.0,combined_stress_test.csv
+Pressure-drop residual,Proposed PI-GNN-GRU-v3 accuracy_mode,1.2582692048575912,2.0,combined_stress_test.csv
+Pressure-drop residual,Proposed PI-GNN-GRU-v3 balanced_mode,0.8471366871324642,1.0,combined_stress_test.csv
+Severe-stress max error,GRU-MSE,6.91119384765625,2.0,combined_stress_test.csv
+Severe-stress max error,Transformer-MSE,8.216209411621094,3.0,combined_stress_test.csv
+Severe-stress max error,Proposed PI-GNN-GRU-v3 accuracy_mode,8.885284423828125,4.0,combined_stress_test.csv
+Severe-stress max error,Proposed PI-GNN-GRU-v3 balanced_mode,5.656242370605469,1.0,combined_stress_test.csv

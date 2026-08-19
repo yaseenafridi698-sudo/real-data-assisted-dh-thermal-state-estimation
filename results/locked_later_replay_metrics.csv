@@ -1,0 +1,2 @@
+dataset,calibration_samples,later_replay_samples,later_replay_start_index,RMSE_return_C,MAE_return_C,signed_return_bias_C,boundary_closure_percent,dynamic_energy_residual_percent,retuned_on_later_period,state_type,note
+sonderborg,537,231,537,1.077285060431692,0.7612013268855046,-0.1161683305316099,0.8722578322370682,1.4837099176096677,False,measured_return_and_calibrated_simulator_consistency,Parameters were fitted on the chronological prefix and applied unchanged to the later suffix; distributed fields remain calibrated-simulator quantities.

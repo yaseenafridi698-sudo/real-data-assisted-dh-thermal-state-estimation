@@ -1,0 +1,3 @@
+item,value,start_utc,end_utc,independent_simulator_fit_validation,source
+calibration input,first 537 retained timestamps of 768; 535 scored after trajectory-start exclusion,2016-01-01T00:00:00+00:00,2016-01-07T07:00:00+00:00,not performed/reported,results/calibration_metrics.csv; src/calibration.py
+calibration fit metrics,return RMSE=1.585706407742 C; dynamic ratio=1.504267267818%,2016-01-01T00:00:00+00:00,2016-01-07T07:00:00+00:00,not performed/reported,results/calibration_metrics.csv

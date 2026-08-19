@@ -1,0 +1,9 @@
+[project]
+name = "ate-real-data-dh-reproducibility"
+version = "1.0.0"
+description = "Reproducibility archive for real-data-assisted district-heating thermal state estimation"
+requires-python = ">=3.12,<3.14"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["src"]

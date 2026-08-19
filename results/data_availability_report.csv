@@ -1,0 +1,6 @@
+dataset,role,public_repository_status,how_to_obtain,required_for,paper_evidence_status
+Sonderborg,primary calibration/benchmark boundary,not redistributed,Zenodo DOI 10.5281/zenodo.7972964; install the exact canonical processed artifact with scripts/install_canonical_data.py,end-to-end frozen-input replay,canonical SHA-256 and row count pinned
+Flensburg,external transfer validation,not redistributed,Zenodo DOI 10.5281/zenodo.10508280,row-level external-transfer regeneration,aggregate/derived validation evidence retained; row-level input external
+XAI4HEAT,sparse measured-node validation,not redistributed,Mendeley Data DOI 10.17632/2mwc6x6kwb.1,measured-node validation regeneration,derived validation evidence retained
+Aalborg,optional demand-side realism,not redistributed,Zenodo DOI 10.5281/zenodo.6563114,optional analyses only,not required for core benchmark
+ERA5-Land via Open-Meteo,weather/reanalysis sensitivity,bundled,Open-Meteo Historical Weather API / ERA5-Land,ambient-boundary sensitivity,bundled file checksum pinned; CC BY 4.0 attribution in DATA_LICENSES.md

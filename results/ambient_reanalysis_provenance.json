@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-08-07T11:25:37.780468+00:00",
+  "source": "Open-Meteo Historical Weather API, hourly ERA5-Land temperature_2m",
+  "api_url": "https://archive-api.open-meteo.com/v1/archive?latitude=54.90896&longitude=9.78917&start_date=2016-01-01&end_date=2019-12-31&hourly=temperature_2m&models=era5_land&timezone=UTC",
+  "reanalysis_model": "ERA5-Land",
+  "source_file": "data\\external_weather\\sonderborg_era5_land_2016_2019_hourly.csv",
+  "source_sha256": "36ca9f9d93b92136649536f94885cf4bf049a0dd4fea88ad494030627283f7c5",
+  "canonical_source_sha256": "35ecda536ba73bc82c202a29e160ef0327e611a825aa558d2d304a356ac98d8e",
+  "merged_file": "data\\locked\\sonderborg_processed_18703_era5_land.csv",
+  "merged_sha256": "fd0c5de9bd27eb2666b3efde00e27b96b4e1c1b37ede5d1847f1a35ebf1151cd",
+  "weather_rows": 35064,
+  "merge_rule": "past-only hourly value carried forward to retained 15-minute timestamp; tolerance 75 min",
+  "evidence_boundary": "historical reanalysis boundary, not a local weather-station measurement",
+  "requested_latitude": 54.90896,
+  "requested_longitude": 9.78917,
+  "grid_latitude": 54.90001,
+  "grid_longitude": 9.699997,
+  "grid_elevation_m": 19.0
+}

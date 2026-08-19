@@ -1,0 +1,21 @@
+model,seed,raw_metric_rows,history_exists,epochs_completed,best_checkpoint_exists,finite_metrics,status
+GRU-MSE,11,1,True,12,True,True,PASS
+Transformer-MSE,11,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 accuracy_mode,11,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 balanced_mode,11,1,True,12,True,True,PASS
+GRU-MSE,22,1,True,12,True,True,PASS
+Transformer-MSE,22,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 accuracy_mode,22,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 balanced_mode,22,1,True,12,True,True,PASS
+GRU-MSE,33,1,True,12,True,True,PASS
+Transformer-MSE,33,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 accuracy_mode,33,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 balanced_mode,33,1,True,12,True,True,PASS
+GRU-MSE,44,1,True,12,True,True,PASS
+Transformer-MSE,44,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 accuracy_mode,44,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 balanced_mode,44,1,True,12,True,True,PASS
+GRU-MSE,55,1,True,12,True,True,PASS
+Transformer-MSE,55,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 accuracy_mode,55,1,True,12,True,True,PASS
+Proposed PI-GNN-GRU-v3 balanced_mode,55,1,True,12,True,True,PASS

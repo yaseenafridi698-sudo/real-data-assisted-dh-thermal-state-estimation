@@ -1,0 +1,16 @@
+metric,value,interpretation
+mean_heat_load_sonderborg_kw,72670.32761016354,Heat-load scale differences can alter inferred flow and energy-balance residuals.
+mean_heat_load_flensburg_kw,133864.8152127835,Heat-load scale differences can alter inferred flow and energy-balance residuals.
+supply_temp_min_sonderborg_C,78.62915463856878,Supply-temperature offsets indicate operating-regime/domain shift.
+supply_temp_max_sonderborg_C,82.00219861242061,Supply-temperature offsets indicate operating-regime/domain shift.
+supply_temp_min_flensburg_C,66.66,Supply-temperature offsets indicate operating-regime/domain shift.
+supply_temp_max_flensburg_C,120.0,Supply-temperature offsets indicate operating-regime/domain shift.
+return_temperature_assumed,True,Missing or assumed return temperature increases transfer uncertainty.
+ambient_available,True,Domain-shift diagnostic used to interpret transfer difficulty.
+sampling_resolution_primary,15 min,Different temporal resolution changes the dynamics seen by the estimator.
+sampling_resolution_external,native 1 h,Different temporal resolution changes the dynamics seen by the estimator.
+external_native_dt_s,3600.0,Domain-shift diagnostic used to interpret transfer difficulty.
+external_cadence_treatment,simulator and sequence windows use native hourly cadence; no 15-min transition is assumed across hourly samples,Domain-shift diagnostic used to interpret transfer difficulty.
+missing_variable_summary,distributed pressure/head/flow unavailable; return temperature assumed if absent,Domain-shift diagnostic used to interpret transfer difficulty.
+mean_heat_load_difference_percent,84.20835520502236,Heat-load scale differences can alter inferred flow and energy-balance residuals.
+few_shot_supply_rmse_improvement_percent,16.402117104831305,positive means few-shot adaptation reduced Flensburg measured-node supply RMSE relative to direct transfer

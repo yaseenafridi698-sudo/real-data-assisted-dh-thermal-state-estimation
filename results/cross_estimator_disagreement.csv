@@ -1,0 +1,65 @@
+state,model_a,model_b,pairwise_RMSE,state_type
+Ts,GRU-MSE,GRU-MSE,0.0,calibrated_simulator
+Ts,GRU-MSE,Transformer-MSE,0.30046323867166963,calibrated_simulator
+Ts,GRU-MSE,PI-GNN-GRU-v3 accuracy,0.12719688381017438,calibrated_simulator
+Ts,GRU-MSE,PI-GNN-GRU-v3 balanced,0.17043694353075273,calibrated_simulator
+Ts,Transformer-MSE,GRU-MSE,0.30046323867166963,calibrated_simulator
+Ts,Transformer-MSE,Transformer-MSE,0.0,calibrated_simulator
+Ts,Transformer-MSE,PI-GNN-GRU-v3 accuracy,0.3225536919468775,calibrated_simulator
+Ts,Transformer-MSE,PI-GNN-GRU-v3 balanced,0.3800990960429123,calibrated_simulator
+Ts,PI-GNN-GRU-v3 accuracy,GRU-MSE,0.12719688381017438,calibrated_simulator
+Ts,PI-GNN-GRU-v3 accuracy,Transformer-MSE,0.3225536919468775,calibrated_simulator
+Ts,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 accuracy,0.0,calibrated_simulator
+Ts,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 balanced,0.14616998809189183,calibrated_simulator
+Ts,PI-GNN-GRU-v3 balanced,GRU-MSE,0.17043694353075273,calibrated_simulator
+Ts,PI-GNN-GRU-v3 balanced,Transformer-MSE,0.3800990960429123,calibrated_simulator
+Ts,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 accuracy,0.14616998809189183,calibrated_simulator
+Ts,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 balanced,0.0,calibrated_simulator
+Tr,GRU-MSE,GRU-MSE,0.0,calibrated_simulator
+Tr,GRU-MSE,Transformer-MSE,0.9383140209217599,calibrated_simulator
+Tr,GRU-MSE,PI-GNN-GRU-v3 accuracy,0.7541422594223075,calibrated_simulator
+Tr,GRU-MSE,PI-GNN-GRU-v3 balanced,0.5940637063083674,calibrated_simulator
+Tr,Transformer-MSE,GRU-MSE,0.9383140209217599,calibrated_simulator
+Tr,Transformer-MSE,Transformer-MSE,0.0,calibrated_simulator
+Tr,Transformer-MSE,PI-GNN-GRU-v3 accuracy,0.8026202049862031,calibrated_simulator
+Tr,Transformer-MSE,PI-GNN-GRU-v3 balanced,0.9104708448982712,calibrated_simulator
+Tr,PI-GNN-GRU-v3 accuracy,GRU-MSE,0.7541422594223075,calibrated_simulator
+Tr,PI-GNN-GRU-v3 accuracy,Transformer-MSE,0.8026202049862031,calibrated_simulator
+Tr,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 accuracy,0.0,calibrated_simulator
+Tr,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 balanced,0.6877806869144679,calibrated_simulator
+Tr,PI-GNN-GRU-v3 balanced,GRU-MSE,0.5940637063083674,calibrated_simulator
+Tr,PI-GNN-GRU-v3 balanced,Transformer-MSE,0.9104708448982712,calibrated_simulator
+Tr,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 accuracy,0.6877806869144679,calibrated_simulator
+Tr,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 balanced,0.0,calibrated_simulator
+H,GRU-MSE,GRU-MSE,0.0,simulator_assisted_hidden_state
+H,GRU-MSE,Transformer-MSE,4.812826861484615,simulator_assisted_hidden_state
+H,GRU-MSE,PI-GNN-GRU-v3 accuracy,4.400139197868065,simulator_assisted_hidden_state
+H,GRU-MSE,PI-GNN-GRU-v3 balanced,5.568756197593788,simulator_assisted_hidden_state
+H,Transformer-MSE,GRU-MSE,4.812826861484615,simulator_assisted_hidden_state
+H,Transformer-MSE,Transformer-MSE,0.0,simulator_assisted_hidden_state
+H,Transformer-MSE,PI-GNN-GRU-v3 accuracy,4.365746629731209,simulator_assisted_hidden_state
+H,Transformer-MSE,PI-GNN-GRU-v3 balanced,5.545343546198107,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 accuracy,GRU-MSE,4.400139197868065,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 accuracy,Transformer-MSE,4.365746629731209,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 accuracy,0.0,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 balanced,3.5326138375626823,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 balanced,GRU-MSE,5.568756197593788,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 balanced,Transformer-MSE,5.545343546198107,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 accuracy,3.5326138375626823,simulator_assisted_hidden_state
+H,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 balanced,0.0,simulator_assisted_hidden_state
+q,GRU-MSE,GRU-MSE,0.0,simulator_assisted_hidden_state
+q,GRU-MSE,Transformer-MSE,0.017475597089328918,simulator_assisted_hidden_state
+q,GRU-MSE,PI-GNN-GRU-v3 accuracy,0.014280331585565385,simulator_assisted_hidden_state
+q,GRU-MSE,PI-GNN-GRU-v3 balanced,0.012579496314017124,simulator_assisted_hidden_state
+q,Transformer-MSE,GRU-MSE,0.017475597089328918,simulator_assisted_hidden_state
+q,Transformer-MSE,Transformer-MSE,0.0,simulator_assisted_hidden_state
+q,Transformer-MSE,PI-GNN-GRU-v3 accuracy,0.01826775758904706,simulator_assisted_hidden_state
+q,Transformer-MSE,PI-GNN-GRU-v3 balanced,0.019747181941057443,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 accuracy,GRU-MSE,0.014280331585565385,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 accuracy,Transformer-MSE,0.01826775758904706,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 accuracy,0.0,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 accuracy,PI-GNN-GRU-v3 balanced,0.012942816888137785,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 balanced,GRU-MSE,0.012579496314017124,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 balanced,Transformer-MSE,0.019747181941057443,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 accuracy,0.012942816888137785,simulator_assisted_hidden_state
+q,PI-GNN-GRU-v3 balanced,PI-GNN-GRU-v3 balanced,0.0,simulator_assisted_hidden_state
